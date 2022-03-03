@@ -2,19 +2,39 @@
  * @Author: rainlotus97
  * @Date: 2022-03-03 23:59:41
  * @LastEditors: rainlotus97
- * @LastEditTime: 2022-03-04 00:01:30
+ * @LastEditTime: 2022-03-04 00:07:23
  * @FilePath: /html/index.html
  * @Description: 
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alhoa SereinCease</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .toBlog {
+            margin: 20px auto;
+            cursor: pointer;
+            color: aquamarine;
+        }
+    </style>
 </head>
+
 <body>
-    <h1 style="color: aquamarine;">hello world</h1>
+    <h1 class="toBlog" onclick="toBlog()">hello world</h1>
+    <script>
+        function toBlog() {
+            location.href="https://yun.rainlotus.cc"
+        }
+    </script>
 </body>
+
 </html>
